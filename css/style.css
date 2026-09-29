@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #E0E0E0;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #101010;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+
+#introducao {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    background-color: #b70000;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#introducao img {
+    width: 170px;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #101010;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#img-introducao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    gap: 0;
+}
+
+#introducao h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#botoes-introducao {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    border-radius: 0px;
+}
+
+#botao-carros {
+    border: none;
+    background-color: #000000;
+}
+
+#botao-curiosidades {
+    border: none;
+    background-color: #000000;
+}
+
+#destaques {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#por-que-sao-especiais {
+    margin-bottom: 20px;
+}
+
+#por-que-sao-especiais small {
+    color: #b70000;
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+.card {
+    background-color: #b70000;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#destaques2 {
+    background-color: #101010;
+    padding: 30px;
+    text-align: center;
+}
+
+#destaques2 a {
+    border: none;
+    background-color: #b70000;
+}
+
+#destaques2 h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+small {
+    color: #b70000;
+    text-transform: uppercase;
+}
+
+footer {
+    padding: 30px;
+    background-color: #101010;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
+
+#menu-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
